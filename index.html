@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,44 +9,73 @@
 
     <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-    <header>
+    <header class="navigation">
+        <div class="inline-block logo">
+            <img width="150px" src="./images/Logo.png">
+        </div>
         <nav>
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Resume</li>
+                <li class="inline-block">Home</li>
+                <li class="inline-block">About</li>
+                <li class="inline-block">Resume</li>
             </ul>
         </nav>
     </header>
-        <div>
-            <img src="./images/Logo.png">
+
+
+    <section class="main-section">
+        <div class="main-content">
+            <div>
+                <h1>Hi, I'm Dana</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and <br><br>
+                    typesetting industry. Lorem Ipsum has been the <br><br>
+                    industry's standard dummy text ever since the 1500s.
+                </p>
+            </div>
+            <img src="./images/Hero Image.png">
         </div>
-    <section id="main">
-        <h1>Hi, I'm Dana</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <img src="./images/Hero Image.png">
-        <div>
-            <h1>Previous Work</h1>
-            <img src="./images/Project Images.png">
-            <p>Project #1</p>
-            <img src="./images/Project Images.png">
-            <p>Project #2</p>
-            <img src="./images/Project Images.png">
-            <p>Project #3</p>
-            <img src="./images/Project Images.png">
-            <p>Project #4</p>
+
+        <h1>Previous Work</h1>
+        <div class="row">
+            <div>
+                <img src="./images/Project Images.png">
+                <p class="project-title">Project #1</p>
+                <p>Project Description</p>
+            </div>
+            <div>
+                <img src="./images/Project Images.png">
+                <p class="project-title">Project #2</p>
+                <p>Project Description</p>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <img src="./images/Project Images.png">
+                <p class="project-title">Project #3</p>
+                <p>Project Description</p>
+            </div>
+            <div>
+                <img src="./images/Project Images.png">
+                <p class="project-title">Project #4</p>
+                <p>Project Description</p>
+            </div>
         </div>
     </section>
+
     <footer>
         <ul>
             <li>Creativity</li>
             <li>Effeciency</li>
             <li>Productivity</li>
         </ul>
-        <img src="./images/Footer Icons.png">
-        <p>Let's begin our journey.</p>
-        <button>danamnasr@gmail.com</button>
+        <img width="150px" src="./images/Footer Icons.png">
+        <div>
+            <p>Let's begin our journey.</p>
+            <button>danamnasr@gmail.com</button>
+        </div>
     </footer>
 </body>
+
 </html>
